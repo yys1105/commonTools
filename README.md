@@ -1,7 +1,7 @@
 # commonTools
 * [trim](#trim) (去除字符串空格)
-* [changeCase](#changeCase) (字母大小写切换)
-* [repeatStr](#repeatStr) (字符串循环复制)
+* [changeCase](#changecase) (字母大小写切换)
+* [repeatStr](#repeatstr) (字符串循环复制)
 
 ## trim
 
