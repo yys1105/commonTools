@@ -1,4 +1,11 @@
 # commonTools
+
+    npm install commontools
+    
+    import tools from 'commontools'
+    
+    tools.trim('Hello npm!',1)
+
 * [trim](#trim) (去除字符串空格)
 * [changeCase](#changecase) (字母大小写切换)
 * [repeatStr](#repeatstr) (字符串循环复制)
@@ -33,7 +40,7 @@
      4：全部大写
      5：全部小写
      * */
-    //ecDo.changeCase('asdasd',1)
+    //tools.changeCase('asdasd',1)
     //result：Asdasd
     changeCase: function (str, type) {
         function ToggleCase(str) {
@@ -73,7 +80,7 @@
 ## repeatStr
 
     //repeatStr(str->字符串, count->次数)
-    //ecDo.repeatStr('123',3)
+    //tools.repeatStr('123',3)
     //"result：123123123"
     repeatStr: function (str, count) {
         var text = '';
