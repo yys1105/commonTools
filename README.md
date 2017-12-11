@@ -3,8 +3,7 @@
 * [changeCase](#changeCase) (字母大小写切换)
 * [repeatStr](#repeatStr) (字符串循环复制)
 
-trim
-------
+## trim
 
     //去除空格  type 1-所有空格  2-前后空格  3-前空格 4-后空格
     //tools.trim('  1235asd',1)
@@ -25,8 +24,7 @@ trim
         }
     }
     
-changeCase
-------
+## changeCase
 
     /*type
      1:首字母大写
@@ -72,8 +70,7 @@ changeCase
         }
     }
     
-repeatStr
-------
+## repeatStr
 
     //repeatStr(str->字符串, count->次数)
     //ecDo.repeatStr('123',3)
