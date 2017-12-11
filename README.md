@@ -1,9 +1,11 @@
 # commonTools
 * [trim](#trim) (去除字符串空格)
-* [changeCase](#changeCase) (去除字符串空格)
+* [changeCase](#changeCase) (字母大小写切换)
+* [repeatStr](#repeatStr) (字符串循环复制)
 
 trim
 ------
+
     //去除空格  type 1-所有空格  2-前后空格  3-前空格 4-后空格
     //tools.trim('  1235asd',1)
     //result：1235asd
@@ -25,6 +27,7 @@ trim
     
 changeCase
 ------
+
     /*type
      1:首字母大写
      2：首页母小写
@@ -67,4 +70,18 @@ changeCase
             default:
                 return str;
         }
+    }
+    
+repeatStr
+------
+
+    //repeatStr(str->字符串, count->次数)
+    //ecDo.repeatStr('123',3)
+    //"result：123123123"
+    repeatStr: function (str, count) {
+        var text = '';
+        for (var i = 0; i < count; i++) {
+            text += str;
+        }
+        return text;
     }
