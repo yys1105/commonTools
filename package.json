@@ -1,6 +1,6 @@
 {
   "name": "commontools",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "* [trim](#trim) (去除字符串空格)\r * [changeCase](#changecase) (字母大小写切换)\r * [repeatStr](#repeatstr) (字符串循环复制)",
   "main": "index.js",
   "directories": {
